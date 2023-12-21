@@ -1,0 +1,37 @@
+.main-container{
+    border: 2px solid black;
+    height: 600px;
+    width: 500px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+} 
+.output-con{
+    border: 1px solid black;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.ques-con{
+    text-align: end;
+    padding: 3px;
+    overflow: scroll;
+}
+.ques-con::-webkit-scrollbar{
+    display: none;
+}
+.ans-con{
+    text-align: end;
+    padding: 3px;
+    overflow: scroll;
+}
+.ans-con::-webkit-scrollbar{
+    display: none;
+}
+.buttons-con{
+    height: 460px;
+    padding: 10px;
+}
