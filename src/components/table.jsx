@@ -59,8 +59,8 @@ function Table(){
     return(
         <div className="main-container">
             <div className="output-con">
-                <div className="ques-con" style={pop?{fontSize:"25px",color:"rgb(81, 81, 81)"}:{fontSize:"50px"}}>{ques}</div>
-                <div className="ans-con" style={pop?{fontSize:"50px"}:{fontSize:"25px",color:"rgb(81, 81, 81)"}}>{ans}</div>
+                <div className="ques-con" style={pop?{fontSize:"25px",color:"rgb(81, 81, 81)"}:{fontSize:"50px",color:"whitesmoke"}}>{ques}</div>
+                <div className="ans-con" style={pop?{fontSize:"50px",color:"whitesmoke"}:{fontSize:"25px",color:"rgb(81, 81, 81)"}}>{ans}</div>
             </div>
             <div className="buttons-con">
                 <Buttons  forValue={handleValue} forClear={handleClear} forBackSpace={handleBackSpace} forEquals={handleEquals}/>
